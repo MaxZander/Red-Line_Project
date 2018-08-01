@@ -1,0 +1,13 @@
+﻿<mui:ModernWindow x:Class="TestWPF_HashSet.MainWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  Title="mui" 
+                  Style="{StaticResource BlankWindow}">
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="MODERN UI FOR WPF" Style="{StaticResource Heading2}" />
+            <TextBlock Text="Your content here" />
+        </StackPanel>
+    </ScrollViewer>
+</mui:ModernWindow>
